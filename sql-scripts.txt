@@ -1,0 +1,20 @@
+Add table adminusers
+create table adminusers(username varchar(80),password varchar(80), fname varchar(80), lname varchar(80), email vachar(108), mobile varchar(15), gender varchar(10), station varchar(80), post varchar(80), state varchar(108));
+insert into adminusers values("Babu", "babu", "Balasubramanium","Rai","bala@gmail.com","9820303588","Male","Hyderabad","Manager","Telangana");
+
+Add table bookticketusers
+create table bookticketusers(fname varchar(80), mname varchar(80), lname varchar(80), age varchar(20), email varchar(108), phone varchar(15), gender varchar(10), nation varchar(108), trainid varchar(20), train_name varchar(108), source varchar(108), destination varchar(108), date varchar(15), time varchar(15), aadhar_no varchar(20), ticket_amount integer(6), ticket_no INT AUTO_INCREMENT PRIMARY KEY)AUTO_INCREMENT = 1000100000;
+insert into bookticketusers (fname,mname,lname,age,email,phone,gender,nation,trainid,train_name,source,destination,date,time,aadhar_no,ticket_amount) values("ABC","MNB","ADD","below-18","s@gmail.com","9829303588","Male","India","12345","Matsyagandha Express","Panvel","Mangalore","2018-02-21","12:00:00","526341789652","200");
+
+Add table users
+create table users(username varchar(50), password varchar(25), fname varchar(80), lname varchar(80), email varchar(108), mobile varchar(15), gender varchar(10), state varchar(108));
+
+Add train 
+create table train(trainid varchar(108), train_name varchar(108), source varchar(108), destination varchar(108), mode varchar(15));
+insert into train values("12619","Matsyagandha","Mumbai","Mangalore","Express");
+
+Add trainstop 
+create table trainstop(trainid varchar(108), station_name varchar(108), arrival_time time, departure_time time);
+insert into trainstop values("12619","Mumbai","22:00:00","22:05:00");
+insert into trainstop values("12619","Panvel","23:00:00","23:05:00");
+insert into trainstop values("12619","Mangalore","02:00:00","02:05:00");

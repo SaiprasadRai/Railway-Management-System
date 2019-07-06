@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+.select{
+	color: blue;
+	
+}
+.select:hover{
+	background-color: #BBDEFB;
+	color: #000000
+}
+.bton{
+	background-color:#FFE658;
+	color: black;
+	font-size: 26px;
+	
+}
+
+.column{
+    float: left;
+    width: 100%;
+}
+
+[class*="colm-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .colm-m-1 {width: 8.33%;}
+    .colm-m-2 {width: 16.66%;}
+    .colm-m-3 {width: 25%;}
+    .colm-m-4 {width: 33.33%;}
+    .colm-m-5 {width: 41.66%;}
+    .colm-m-6 {width: 50%;}
+    .colm-m-7 {width: 58.33%;}
+    .colm-m-8 {width: 66.66%;}
+    .colm-m-9 {width: 75%;}
+    .colm-m-10 {width: 83.33%;}
+    .colm-m-11 {width: 91.66%;}
+    .colm-m-12 {width: 100%;}
+    .colm-m-13 {width: 20%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .colm-1 {width: 8.33%;}
+    .colm-2 {width: 16.66%;}
+    .colm-3 {width: 25%;}
+    .colm-4 {width: 33.33%;}
+    .colm-5 {width: 41.66%;}
+    .colm-6 {width: 50%;}
+    .colm-7 {width: 58.33%;}
+    .colm-8 {width: 66.66%;}
+    .colm-9 {width: 75%;}
+    .colm-10 {width: 83.33%;}
+    .colm-11 {width: 91.66%;}
+    .colm-12 {width: 100%;}
+    .colm-13 {width: 20%;}
+}
+
+.row{
+    width: 100%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app>
+ <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>LoginAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegisterLoginServlet</servlet-name>
+    <servlet-class>RegisterLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterLoginServlet</servlet-name>
+    <url-pattern>/RegisterLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegisterAdmin</servlet-name>
+    <servlet-class>RegisterAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterAdmin</servlet-name>
+    <url-pattern>/RegisterAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BookTicketServlet</servlet-name>
+    <servlet-class>com.railways.controller.BookTicketController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookTicketServlet</servlet-name>
+    <url-pattern>/BookTicketServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>SearchTrainServlet</servlet-name>
+    <servlet-class>com.railways.controller.SearchTrainController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchTrainServlet</servlet-name>
+    <url-pattern>/SearchTrainServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PrintTicketServlet</servlet-name>
+    <servlet-class>com.railways.controller.PrintTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PrintTicketServlet</servlet-name>
+    <url-pattern>/PrintTicketServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  </web-app>
+</element>
